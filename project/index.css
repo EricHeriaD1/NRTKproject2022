@@ -1,0 +1,766 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+width: 100%;
+height: 4050px;	
+background-color: white;
+
+}
+.corzina {
+width: 100%;
+height: 980px;
+position: absolute;
+position: fixed;
+z-index: 1;
+background: rgba(0, 0, 0, 0.35);
+display: none;
+
+}
+
+.had {
+width: 100%;
+height: 980px;
+background-image: url(шапка.jpg);
+background-size: cover;
+}
+
+.had_text {
+	widows: 100%;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.had_text h1 {
+font-size: 70px;
+font-family: Caveat;
+color: white;
+}
+
+.contacts {
+	position: absolute;
+	width: 20%;
+	height: 100px;
+	top: 0;
+	right: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.number {
+	width: 50%;
+	height: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.vk, .tg , .tw {
+	width: 15%;
+	height: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.vk_pic {
+	width: 70%;
+	height: 70%;
+	background-image: url(vk2.png);
+	background-size: cover;
+}
+.tg_pic {
+	width: 70%;
+	height: 70%;
+	background-image: url(vk2.png);
+	background-size: cover;
+}
+.tw_pic {
+	width: 70%;
+	height: 70%;
+	background-image: url(vk2.png);
+	background-size: cover;
+}
+.number p {
+font-size: 20px;
+font-family: Impact;
+color: white;
+
+}
+
+
+.main_block {
+width: 100%;
+height: 780px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.main_text {
+width: 100%;
+height: 400px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.main_text h1 {
+font-size: 300px;
+font-family: Caveat;
+color: white;
+}
+
+
+.main_text_buttom button {
+	padding: 20px 60px;
+	outline: none;
+	border: none;
+	border-radius: 35px;
+	font-size: 20px;
+	font-family: Arial;
+	color: black;
+	font-weight: bold;
+	background: white;
+	transition: 0.5s;
+
+}
+
+.main_text_buttom button:hover {
+	background: #f39629;
+	color: white;
+	transition: 0.5s;
+	cursor: pointer;
+	
+}
+.main_text_buttom button:hover a {
+	color: white;	
+}
+.main_text_buttom button a {
+	text-decoration: none;
+	font-size: 23px;
+	font-family: Arial;
+	color: black;
+	font-weight: bold;
+	transition: 0.5s;
+}
+.middle_text {
+	width: 100%;
+	height: 250px;
+	background-color: white;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.text1 {	
+	width: 100%;
+	height: 100px;
+	text-align: center;
+
+}
+.text2 {	
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+.text1 p {
+	font-size: 55px;
+	font-family: Arial;
+	color: black;
+	font-weight: bold;
+}
+.text2 p {
+	font-size: 50px;
+	font-family: Arial;
+	color: black;
+}
+.menu {
+	width: 100%;
+	height: 1400px;
+	display: flex;
+	justify-content: center;
+}
+.zero {
+	width: 100%;
+	height: 100px;
+
+}
+.zero2 {
+	width: 100%;
+	height: 200px;
+
+}
+.menu_middle_block {
+	width: 80%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.item {
+	width:450px;
+	height: 600px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.item_anim {
+	width:430px;
+    height: 310px;
+	background-color: white;
+	border-radius: 30px;
+	box-shadow: 0px 25px 80px rgba(0, 0, 0, 0.5);
+	transition: 0.5s;
+	display: flex;
+	justify-content: start;
+	flex-direction: column;
+
+}
+
+.item_anim:hover {
+	height: 600px;
+	transition: 0.5s;
+}
+
+
+
+
+.name_text {
+	width:400px;
+	height: 60px;
+	background-color: #483D8B;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.name_text p {
+	font-size: 25px;
+	font-family: Arial;
+	color: black;
+}
+
+
+
+.image {
+	position: relative;
+	width:230px;
+	height: 230px;
+	background-color: white;
+	top: -70px;
+	border-radius: 180px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.35);
+	transition: 0.5s;
+
+}.image img {
+
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+
+.item_anim:hover .image {
+	width:300px;
+	height: 300px;
+	top: -40px;
+	transition: 0.5s;
+}
+.content {
+
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+
+}
+.image_block {
+	height: 150px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+
+
+}
+.text_block {
+	height: 450px;
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+	overflow: hidden;
+
+
+	
+
+
+}
+
+.item_anim .content .details {
+text-align: center;
+display: flex;
+flex-direction: column;
+height: 390px;
+
+
+
+
+}
+
+.item_anim .content .details h2 {
+	margin-top: 140px;
+	font-size: 35px;
+	font-family: Arial;
+	color: black;
+	font-weight: bold;
+
+
+
+
+}
+.item_anim .content .details span {
+	font-size: 20px;
+	font-family: Arial;
+	color: black;	
+	opacity: 0.7;
+}
+.info {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.info h3 {
+	font-size: 25px;
+	font-family: Arial;
+	color: black;
+	font-weight: bold;
+}
+
+.info span {
+	font-size: 20px;
+	font-family: Arial;
+	color: black;	
+	opacity: 0.7;
+}
+.btn {
+	width: 100%;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.btn button {
+	padding: 15px 50px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	font-family: Arial;
+	color: white;
+	font-weight: bold;
+	background: #f39629;
+		transition: 0.5s;
+
+}
+
+.btn button:hover {
+	background: white;
+	color: black;
+	transition: 0.5s;
+	border:1px solid #f39629;
+		cursor: pointer;
+}
+.dostavka {
+	width: 100%;
+	height: 350px;
+
+}
+
+
+.dostavka .text1 {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dostavka .text2 {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.text1 a {
+	font-size: 20px;
+	font-family: Arial;
+	color: black;
+	font-weight: bold;
+}
+
+.text2 a {
+	font-size: 40px;
+	font-family: Arial;
+	color: black;
+}
+
+
+.cont{
+	width: 100%;
+	height: 700px;
+	background-color: #f39629;
+	display: flex;
+	align-items: center;
+}
+
+.middle_cont{
+	width: 100%;
+	height: 500px;
+	background-color: #fff;
+}
+
+.had_cont {
+	width: 100%;
+	height: 70px;
+	background-color: #f39629;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.had_cont a {
+	font-size: 40px;
+	font-family: Arial;
+	color: white;
+	font-weight: bold;
+}
+
+.text_cont {
+	width: 100%;
+	height: 200px;
+	background-color: #f39629;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.text_cont a {
+	font-size: 25px;
+	font-family: Arial;
+	color: white;
+}
+
+.tel {
+	width: 100%;
+	height: 100px;
+	background-color: #f39629;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.tel h3 {
+	font-size: 25px;
+	font-family: Arial;
+	color: white;
+	font-weight: bold;
+}
+.tel span {
+	font-size: 20px;
+	font-family: Arial;
+	color: white;
+}
+
+.button2 {
+	width: 100%;
+	height: 130px;
+	background-color: #f39629;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.button2 button {
+	padding: 20px 60px;
+	outline: none;
+	border: 1px solid #f39629;
+	border-radius: 35px;
+	font-size: 20px;
+	font-family: Arial;
+	color: black;
+	font-weight: bold;
+	background: white;
+	transition: 0.5s;
+
+}
+
+.button2 button:hover {
+	background: #f39629;
+	color: white;
+	transition: 0.5s;
+	border: 1px solid white;
+	cursor: pointer;
+	
+}
+.button2 button:hover a {
+	color: white;	
+}
+.button2 button a {
+		text-decoration: none;
+	font-size: 20px;
+	font-family: Arial;
+	color: black;
+	font-weight: bold;
+	transition: 0.5s;
+}
+
+.container{
+    width: 1500px;
+    height: 1000px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.order-panel{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 800px;
+    border-radius: 25px;
+}
+
+.order-panel input {
+    background-color: white;
+    border: 3px solid #f39629;
+    font-size:24px;
+    width: 350px;
+    height: 40px;
+    outline: none;
+}
+.panel-header h3 {
+	font-size:30px;
+}
+.pizza-order {
+	width:100% ;
+    height: 250px;
+    border-top: 1px solid rgba(0, 0, 0, 0.35);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+    overflow-y: scroll;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.pizza-order::-webkit-scrollbar {
+    width: 7px;
+    background-color: #f9f9fd;
+}
+.pizza-order::-webkit-scrollbar-thumb {
+	background-color: #f39629;
+}
+
+.pizzas {
+	width:100%;
+    height: 200px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.pizzas_screen {
+	width: 40%;
+	height: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.pizzas_text {
+	width: 60%;
+	height: 100%;
+	display: flex;
+    flex-direction: column;
+}
+
+
+.order-cost {
+    align-self: flex-end;
+    margin-right: 50px;
+}
+
+.order-panel .checkout button {
+    background-color: #f39629;
+    color: white;
+    width: 310px;
+    height: 55px;
+    margin-top: 20px;
+    border: 3px solid #f39629;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 35px;
+}
+.order-panel .checkout button:hover{
+    background-color: white;
+    color: #f39629;
+    transition: 0.5s;
+}
+.order-panel .checkout button p{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+.exit {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-right: 3%;
+	margin-top: 1%;
+
+}
+.exit button {
+	width: 50px;
+	height: 50px;
+	outline: none;
+	border: 2px solid #f39629;		
+	background-color:#f39629;
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+	border-radius: 35px;
+	transition: 0.5s;
+}
+.exit button:hover {
+    background-color:white;
+    transition: 0.5s;
+
+}
+.exit button span {
+	font-family: Arial;
+	color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.exit button:hover span {
+	color: #f39629;
+	transition: 0.5s;
+}
+
+.pizzas_screen img {
+	width: 100%;
+	height: 100%;
+	margin-left: 4%;
+	object-fit: cover;
+	border-radius: 100px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.35);
+
+}
+
+.pizzas_text_name {
+	width: 100%;
+	height: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pizzas_text_coin {
+	width: 100%;
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+}
+.pizzas_text_name h1 {
+	font-family: Arial;
+	color: black;
+    font-weight: bold;
+    font-size: 45px;
+}
+.pizzas_text_coin h1 {
+	font-family: Arial;
+	color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.pizzas_text_coin_coin {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+.pizzas_text_coin_delete {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pizzas_text_coin_delete button {
+	width: 50%;
+	height: 60%;
+	outline: none;	
+	background-color:#f39629;
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+	border-radius: 35px;
+	transition: 0.5s;
+	border: 2px solid #f39629;	
+}
+.pizzas_text_coin_delete button:hover {
+    background-color:white;
+    transition: 0.5s;
+
+}
+.pizzas_text_coin_delete button span {
+	font-family: Arial;
+	color: white;
+    font-weight: bold;
+    font-size: 20px;
+        transition: 0.5s;
+}
+
+.pizzas_text_coin_delete button:hover span {
+	color: #f39629;
+	transition: 0.5s;
+}
